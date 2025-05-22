@@ -32,7 +32,7 @@ async function fetchWeather() {
   const weatherDataSection = document.getElementById("weather-data");
   weatherDataSection.style.display = "block";
 
-  const apiKey = "4ddaf17923ee5b7034af87d92a2d99cb";
+  const apiKey = "";
 
   // Validates searchInput is not empty
   if (searchInput == "") {
